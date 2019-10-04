@@ -1,0 +1,4 @@
+<div class="player-container">
+  <player-thumbnail *ngFor="let player of players" [player]="player" [watchlistApi]="watchlistApi"
+  (addPlayer)="addToWatchlist($event)" (deletePlayer)="deleteFromWatchlist($event)"></player-thumbnail>
+</div>

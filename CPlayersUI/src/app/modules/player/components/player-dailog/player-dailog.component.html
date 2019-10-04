@@ -1,0 +1,39 @@
+<h4 mat-dialog-title>
+  Statistics for : {{data.obj.name}}</h4>
+<div mat-dialog-content>
+    <table>
+      <tr>
+        <td>
+          <img class="player-image" mat-card-image [src]="cPlayerStats?.imageURL" [alt]="cPlayerStats?.fullName" width="150px" height="180px">
+        </td>
+        <td></td>
+      </tr>
+    </table>
+  <p>
+    <b>Name :</b> {{cPlayerStats?.name}}</p>
+  <p>
+    <b>Full Name :</b>{{cPlayerStats?.fullName}}</p>
+  <p>
+    <b>Born :</b> {{cPlayerStats?.born}}</p>
+  <p>
+    <b>Current Age :</b> {{cPlayerStats?.currentAge}}</p>
+
+  <p>
+    <b>Major Teams Played For :</b> {{cPlayerStats?.majorTeams}}</p>
+  <p>
+    <b>Playing Role :</b> {{cPlayerStats?.playingRole}}</p>
+  <p>
+    <b>Batting Style :</b> {{cPlayerStats?.battingStyle}}</p>
+  <p>
+    <b>Bowling Style :</b> {{cPlayerStats?.bowlingStyle}}</p>
+  <p>
+    <b>Profile :</b> {{cPlayerStats?.profile}}</p>
+  <p>
+    <b>Country :</b> {{cPlayerStats?.country}}</p>
+  <p>
+    <b>Image URL :</b> {{cPlayerStats?.imageURL}}</p>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button colour=warn (click)="onNoClick()">Cancel</button>
+</div>

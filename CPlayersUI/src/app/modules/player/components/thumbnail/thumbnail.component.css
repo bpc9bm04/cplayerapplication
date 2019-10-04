@@ -1,0 +1,13 @@
+.player-thumbnail{
+    width: 300px;
+   
+    margin: 5px;
+}
+.player-image{
+    height: 400px;
+}
+.player-overview{
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}

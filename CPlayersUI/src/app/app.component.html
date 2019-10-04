@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary">
+    <span>C Player Application</span>
+    <button mat-button [routerLink]="['/players/watchlist']">Favourite Players List</button>
+    <button class="search-button" mat-button [routerLink]="['/players/search']">Search</button>
+    <button mat-button *ngIf="showLogout" (click) = "logout()">Logout</button>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+

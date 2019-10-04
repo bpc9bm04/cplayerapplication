@@ -1,0 +1,16 @@
+{
+	"name": "package",
+	"version": "1.0.0",
+	"description": "CPlayerApp: This is simple C Player application. We can search player, add them to our fourite list , delete it from favourite list, view player's statistics.",
+	"main": "karma.conf.js",
+	"dependencies": {
+						"express": "^4.16.3"
+					},
+	"devDependencies": {},
+	"scripts": {
+					"test": "echo: \"Error: no test specified\" && exit 1",
+					"start": "node server.js"
+				},
+	"author" : "tarunkumar.tiwari@cognizant.com",
+	"license": "ISC"
+}
